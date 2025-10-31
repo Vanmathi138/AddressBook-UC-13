@@ -34,7 +34,8 @@ public class AddressBookIO {
             System.out.println(e);
         }
     }
-    public void addContacts(String n1, String n2, String e, String num) {
+    public void addContacts(String n1, String n2, String e, String num)
+    {
         personList.add(new Person(n1,n2, e,num));
     }
 
